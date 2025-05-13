@@ -7,7 +7,7 @@ export default defineConfig({
 	plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
 	server: {
 		proxy: {
-			"/api": "https://serverfolio-production.up.railway.app:8080",
+			"/api": "https://serverfolio-production.up.railway.app",
 		},
 	},
 });
