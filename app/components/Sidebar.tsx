@@ -13,8 +13,8 @@ function Sidebar() {
 						<h3 className="text-[22px] text-[#eaeaea]">N.T.H (Mammon)</h3>
 					</div>
 					<div className="author-description mt-[10px] mb-[20px]">
-						<h3 className="text-[16.5px] mt-[10px] text-[#eaeaea]">
-							Super passionate about Infosec…Dwight Schrute level of intensity
+						<h3 className="text-[16.5px] mt-[10px] text-[#eaeaea] line-clamp-2">
+							Super passionate about technology
 						</h3>
 					</div>
 					<ul className="social-icons flex flex-col gap-2 text-[16.5px]">
@@ -44,7 +44,7 @@ const socialMedia = [
 	{
 		name: "Website",
 		icon: <i className="fa-solid fa-link"></i>,
-		url: "https://mammon.github.io/",
+		url: "https://mammon.netlify.app/",
 	},
 	{
 		name: "Facebook",
